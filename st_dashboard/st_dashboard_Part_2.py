@@ -91,6 +91,8 @@ elif page == 'Most popular stations':
 elif page == "Interactive map with aggregated bike trips":
     st.write("Map")
     path_to_html = st_dashboard/V3_kepler.gl.html
+    print(os.getcwd())  # Add this to debug the current directory
+    print(path_to_html)  # Add this to debug the path variable
 
     # Read file and keep in variable
     with open(path_to_html,'r') as f: 
