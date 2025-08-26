@@ -4,3 +4,5 @@ numpy==1.26.4
 plotly==5.22.0
 matplotlib==3.8.4
 numerize==0.12
+
+# Force install
