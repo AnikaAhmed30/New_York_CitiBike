@@ -90,7 +90,7 @@ elif page == 'Most popular stations':
 
 elif page == "Interactive map with aggregated bike trips":
     st.write("Map")
-    path_to_html = "V3_kepler.gl.html" 
+    "st_dashboard/V3_kepler.gl.html"
 
     # Read file and keep in variable
     with open(path_to_html,'r') as f: 
