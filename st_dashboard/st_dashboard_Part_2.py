@@ -89,9 +89,9 @@ elif page == 'Most popular stations':
 ### Kepler Map
 
 elif page == "Interactive map with aggregated bike trips":
-    st.write("Map")
+    st.write('Map')
     import os
-    path_to_html = "V3_kepler.gl.html"  # Corrected
+    path_to_html = 'V3_kepler.gl.html'  # Corrected
     print(os.getcwd())
     print(path_to_html)
     with open(path_to_html, 'r') as f:
