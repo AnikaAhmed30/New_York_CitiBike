@@ -84,6 +84,8 @@ elif page == 'Most popular stations':
     width=900,
     height=600)
     st.plotly_chart(fig, use_container_width=True)
+    st.markdown("From the bar chart it is clear that there are some start stations that are more popular than others - in the top 3 we can see W 21 St & 6 Ave, Broadway & W 58 St, West St & Chambers St. There is a big jump between the highest and lowest bars of the plot, indicating some clear preferences for the leading stations. This is a finding that we could cross reference with the interactive map that you can access through the side bar select box.")
+  
 
 
 ### Kepler Map
