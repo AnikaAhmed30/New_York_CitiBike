@@ -110,6 +110,6 @@ if page == "Recommendations":
     Based on the analysis:
     1. **Increase Bike Supply at Top Stations**: Stations like W 21 St & 6 Ave and West St & Chambers St have high demand and should have more bikes allocated.
     2. **Expand in High-Density Areas**: The map shows clusters in midtown Manhattan; consider adding new stations or bikes here.
-    3. **Monitor Seasonal Trends**: The line chart indicates higher usage in [season], so adjust inventory seasonally.
+    3. **Monitor Seasonal Trends**: The line chart indicates higher usage in Summer time, so adjust inventory seasonally.
     4. **Promote Underused Stations**: Promote ridership and offer incentives in low-trac zones like northern Manhattan, Bronx and eastern Queens.
     """)
