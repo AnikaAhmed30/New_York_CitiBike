@@ -106,8 +106,8 @@ if page == "Recommendations":
     st.header("Recommendations for Citi Bikes Resource Allocation")
     st.markdown("""
     Based on the analysis:
-    1. **Increase Bike Supply at Top Stations**: Stations like [Station Name] have high demand and should have more bikes allocated.
-    2. **Rebalance During Peak Hours**: High trip volumes during [peak hours] suggest rebalancing bikes to high-demand areas in the morning and evening.
-    3. **Expand in High-Density Areas**: The map shows clusters in [area]; consider adding new stations or bikes here.
-    4. **Monitor Seasonal Trends**: The line chart indicates higher usage in [season], so adjust inventory seasonally.
+    1. **Increase Bike Supply at Top Stations**: Stations like W 21 St & 6 Ave and West St & Chambers St have high demand and should have more bikes allocated.
+    2. **Expand in High-Density Areas**: The map shows clusters in midtown Manhattan; consider adding new stations or bikes here.
+    3. **Monitor Seasonal Trends**: The line chart indicates higher usage in [season], so adjust inventory seasonally.
+    4. **Promote ridership and offer incentives in low-trac zones like northern Manhattan, Bronx and eastern Queens.
     """)
