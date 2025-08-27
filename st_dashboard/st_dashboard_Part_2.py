@@ -90,20 +90,16 @@ elif page == 'Most popular stations':
 
 elif page == "Interactive map with aggregated bike trips":
     st.write("Map")
-    path_to_html = "st_dashboard/V3_kepler.gl.html"
-    print(os.getcwd())  # Add this to debug the current directory
-    print(path_to_html)  # Add this to debug the path variable
-
-    # Read file and keep in variable
-    with open(path_to_html,'r') as f: 
+    import os
+    path_to_html = "V3_kepler.gl.html"  # Corrected
+    print(os.getcwd())
+    print(path_to_html)
+    with open(path_to_html, 'r') as f:
         html_data = f.read()
-
-    ## Show in webpage
     st.header("Aggregated Bike Trips in New York")
-    st.components.v1.html(html_data,height=1000)
-    st.markdown("""### This map visualizes the geographic distribution of bike trips, with clusters indicating high-traffic areas that may require additional bikes or rebalancing.""") 
-    st.markdown("""### Looking at the map, it can be understood     that midtown manhattan has the bussiest stations.""")
-
+    st.components.v1.html(html_data, height=1000)
+    st.markdown("""### This map visualizes the geographic distribution of bike trips, with clusters indicating high-traffic areas that may require additional bikes or rebalancing.""")
+    st.markdown("""### Looking at the map, it can be understood that midtown Manhattan has the busiest stations.""")
     
     
 if page == "Recommendations":
